@@ -32,8 +32,8 @@ schedule = []
 h=0
 for this_day in DOW:
     for this_hour in hour_array:
-        this_hour = ScheduleHour(this_day, this_hour, h)
-        schedule.append(this_hour)
+        temp_hour = ScheduleHour(this_day, this_hour, h)
+        schedule.append(temp_hour)
         h += 1
 
 
